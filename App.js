@@ -4,13 +4,13 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import Home from "./src/pages/Home";
-import Tela1 from "./src/pages/Tela1";
-import Tela2 from "./src/pages/Tela2";
-import Tela3 from "./src/pages/Tela3";
-import Tela4 from "./src/pages/Tela4";
-import Tela5 from "./src/pages/Tela5";
-import Tela6 from "./src/pages/Tela6";
-import Tela7 from "./src/pages/Tela7";
+import Tela1 from "./src/pages/Tela1.jsx";
+import Tela2 from "./src/pages/Tela2.jsx";
+import Tela3 from "./src/pages/Tela3.jsx";
+import Tela4 from "./src/pages/Tela4.jsx";
+import Tela5 from "./src/pages/Tela5.jsx";
+import Tela6 from "./src/pages/Tela6.jsx";
+import Tela7 from "./src/pages/Tela7.jsx";
 
 
 const { Screen, Navigator } = createNativeStackNavigator();
